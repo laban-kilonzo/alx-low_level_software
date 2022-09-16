@@ -3,7 +3,7 @@
 /**
  * print_number - prints an integer
  * @n: random integer
- * Return: void
+ *Return: void
  */
 
 void print_number(int n)
@@ -41,7 +41,7 @@ void print_number(int n)
 	while (ct != 0)
 	{
 		_putchar('0');
-		ct--;
+	        	ct--;
 	}
 	_putchar(ld);
 }
